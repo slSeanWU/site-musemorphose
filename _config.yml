@@ -3,7 +3,5 @@ theme: jekyll-theme-cayman
 github:
   is_project_page: false
 
-title: >
-  MuseMorphose
-  Full-Song and Fine-Grained Music Style Transfer with Just One Transformer VAE
-description: Shih-Lun Wu           Yi-Hsuan Yang
+title: MuseMorphose
+description: Full-Song and Fine-Grained Music Style Transfer with Just One Transformer VAE
