@@ -3,5 +3,5 @@ theme: jekyll-theme-cayman
 github:
   is_project_page: false
 
-title: MuseMorphose aaa
+title: MuseMorphose
 description: Full-Song and Fine-Grained Music Style Transfer with Just One Transformer VAE
