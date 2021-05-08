@@ -13,8 +13,8 @@ _ArXiv preprint_, May 2021
 ## Model Bird's-eye View
 <div style="text-align:center">
   <figure>
-    <img src="./assets/muse_morphose_archi.jpg" alt="model architecture" style="width:80%">
-    <div style="font-size:0.8rem;opacity:0.7">
+    <img src="./assets/muse_morphose_archi.jpg" alt="model architecture" style="width:90%">
+    <div style="font-size:0.9rem;opacity:0.8">
       <figcaption>Model architecture of MuseMorphose</figcaption>
     </div>
   </figure>
