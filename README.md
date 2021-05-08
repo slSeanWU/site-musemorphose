@@ -20,10 +20,20 @@ _ArXiv preprint_, May 2021
   </figure>
 </div>
 
-**MuseMorphose** is trained on expressive pop piano performances (dataset: _AILabs.tw-Pop1.7K_, [link](https://github.com/YatingMusic/compound-word-transformer/tree/main/dataset)).
-We adopt a slightly revised REMI (_Huang and Yang, 2020_, [paper](https://arxiv.org/abs/2002.00212)) representation to convert the music into token sequences.
+**MuseMorphose** is trained on expressive pop piano performances (_AILabs.tw-Pop1.7K_ dataset, [link](https://github.com/YatingMusic/compound-word-transformer/tree/main/dataset)).
+A slightly revised Revamped MIDI representation (**REMI**, _Huang and Yang, 2020_, [paper](https://arxiv.org/abs/2002.00212)) is adopted to convert the music into token sequences.
 
-### 
+### Controllable Attributes
+We consider the following two _computable_, _bar-level_ attributes:
+* **Rhythmic intensity**: The percentage of quarter beats with _&ge;1 note onsets_.
+* **Polyphony**: The average number of _notes hit or held_ on each quarter beat.  
+
+Following _Kawai et al. (2020)_ ([paper](https://archives.ismir.net/ismir2020/paper/000099.pdf)), for each attribute, we assign each bar an ordinal class from **0** to **7** according to the computed raw scores.
+
+$$ a = 1 $$
+
+We note that more attributes can be potentially included, such as rhythmic variation (ordinal), or composing styles (nominal), etc..
+
 
 ## Listening Samples 
 ### 8-bar Excerpt #1  
