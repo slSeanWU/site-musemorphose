@@ -24,9 +24,9 @@ _ArXiv preprint_, May 2021
 **MuseMorphose** is trained on expressive pop piano performances (dataset: _AILabs.tw Pop17K_, [link](https://github.com/YatingMusic/compound-word-transformer/tree/main/dataset)).   
 
 ### 8-bar Excerpt #1
-| Original | &nbsp; <audio controls><source src="./assets/audio_samples/excerpt01_orig.mp3" type="audio/mpeg"></audio> |
+| Original | aaa |
 | --- | ----------- |
-| **Generation 01** | &nbsp; <audio controls><source src="./assets/audio_samples/excerpt01_orig.mp3" type="audio/mpeg"></audio> |
+| **Generation 01** | aaa |
 
 ### 8-bar Excerpt #2
 | Original | &nbsp; <audio controls><source src="./assets/audio_samples/excerpt02_orig.mp3" type="audio/mpeg"></audio> |
