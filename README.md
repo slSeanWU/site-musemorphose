@@ -11,10 +11,10 @@ _ArXiv preprint_, May 2021
 [[arXiv](.) (coming soon)] [[code](.) (coming soon)] [[BibTex](.) (coming soon)]
 
 ## Model Bird's-eye View
-<div style="text-align:center">
+<div style="text-align:center;margin-top:6px;margin-bottom:6px">
   <figure>
     <img src="./assets/muse_morphose_archi.jpg" alt="model architecture" style="width:90%">
-    <div style="font-size:0.9rem;opacity:0.8">
+    <div style="font-size:0.9rem;opacity:0.8;margin-top:2px">
       <figcaption>Model architecture of MuseMorphose</figcaption>
     </div>
   </figure>
