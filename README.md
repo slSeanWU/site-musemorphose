@@ -43,7 +43,7 @@ To maximize the influence of bar-level conditions (i.e., $$\boldsymbol{c}_k$$'s)
 $$\begin{aligned}
   \tilde{\boldsymbol{h}^l_t} &= \boldsymbol{h}^l_t + {\boldsymbol{c}_k}^{\top} W_{\text{in}} \,, \; \; \; \; \forall \, l \in \{0, L-1\} \; \text{and} \; \forall \, t \in I_k \, \\
   \boldsymbol{c}_k &= \text{concat}([\boldsymbol{z}_k, \boldsymbol{a}^{\text{rhym}}_k, \boldsymbol{a}^{\text{poly}}_k])\, \\
-  W_{\text{in}} &\in \mathbb{R}^{d_{\boldsymbol{c}} \times d}; \; \; \; \; \tilde{\boldsymbol{h}^l_t}, \boldsymbol{h}^l_t \in \mathbb{R}^{d} \,,
+  W_{\text{in}} &\in \mathbb{R}^{d_{\boldsymbol{c}} \times d}; \; \; \; \; \; \; \; \; \tilde{\boldsymbol{h}^l_t}, \boldsymbol{h}^l_t \in \mathbb{R}^{d} \,,
 \end{aligned}$$
 
 where $$I_k$$ stores the timestep indices for the $$k^{\text{th}}$$ bar, and $$\tilde{\boldsymbol{h}^l_t}$$'s are the _modified hidden states_ of layer $$l$$.
@@ -69,3 +69,10 @@ The samples demonstrate that **MuseMorphose** attains high _fidelity_ to the ori
 | &bull; Generation #1, **low** rhythm & polyphony | <audio controls><source src="./assets/audio_samples/excerpt02_low.mp3" type="audio/mpeg"></audio> |
 | &bull; Generation #2, **high** rhythm, **ascending** polyphony | <audio controls><source src="./assets/audio_samples/excerpt02_poly_crescendo.mp3" type="audio/mpeg"></audio> |
 | &bull; Generation #3, **descending** rhythm, **high** polyphony | <audio controls><source src="./assets/audio_samples/excerpt02_rhym_diminuendo.mp3" type="audio/mpeg"></audio> |
+
+## Authors and Affiliations
+<div style="display:flex">
+  <img src="./assets/AI-Labs-Logo-1-300x92.png" alt="Taiwan AI Labs" style="width:30%">
+  <img src="./assets/ntu_logo.png" alt="NTU" style="width:40%">
+  <img src="./assets/as_logo.png" alt="Academia Sinica" style="width:20%">
+</div>
