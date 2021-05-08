@@ -31,7 +31,7 @@ We consider the following two _computable_, _bar-level_ attributes:
 Following _Kawai et al. (2020)_ ([paper](https://archives.ismir.net/ismir2020/paper/000099.pdf)), for each attribute, we assign each bar an ordinal class from **0** to **7** according to the computed raw score.
 The attributes are turned into learnable _attribute embeddings_
 
-$$ \boldsymbol{a}^{\text{rhym}}, \boldsymbol{a}^{\text{poly}} \in \mathbb{R}^{\boldsymbol{a}} $$
+$$ \boldsymbol{a}^{\text{rhym}}, \boldsymbol{a}^{\text{poly}} \in \mathbb{R}^{d_{\boldsymbol{a}}} $$
 
 fed to the decoder through **in-attention** to control the generation.
 
@@ -43,7 +43,7 @@ To maximize the influence of bar-level conditions (i.e., $$\boldsymbol{c}_k$$'s)
 $$\begin{aligned}
   \tilde{\boldsymbol{h}^l_t} &= \boldsymbol{h}^l_t + {\boldsymbol{c}_k}^{\top} W_{\text{in}} \,, \; \; \; \; \forall \, l \in \{0, L-1\} \; \text{and} \; \forall \, t \in I_k \, \\
   \boldsymbol{c}_k &= \text{concat}([\boldsymbol{z}_k, \boldsymbol{a}^{\text{rhym}}_k, \boldsymbol{a}^{\text{poly}}_k])\, \\
-  W_{\text{in}} &\in \mathbb{R}^{d_{\boldsymbol{c}} \times d}\,, 
+  W_{\text{in}} &\in \mathbb{R}^{d_{\boldsymbol{c}} \times d}; \; \tilde{\boldsymbol{h}^l_t}, \boldsymbol{h}^l_t \in \mathbb{R}^{d} \,,
 \end{aligned}$$
 
 where $$I_k$$ stores the timestep indices for the $$k^{\text{th}}$$ bar, and $$\tilde{\boldsymbol{h}^l_t}$$'s are the _modified hidden states_ of layer $$l$$.
