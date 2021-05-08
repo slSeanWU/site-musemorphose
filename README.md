@@ -28,9 +28,10 @@ We consider the following two _computable_, _bar-level_ attributes:
 * **Rhythmic intensity**: The percentage of quarter beats with _&ge;1 note onsets_.
 * **Polyphony**: The average number of _notes hit or held_ on each quarter beat.  
 
-Following _Kawai et al. (2020)_ ([paper](https://archives.ismir.net/ismir2020/paper/000099.pdf)), for each attribute, we assign each bar an ordinal class from **0** to **7** according to the computed raw scores.
-
-$$ a = 1 $$
+Following _Kawai et al. (2020)_ ([paper](https://archives.ismir.net/ismir2020/paper/000099.pdf)), for each attribute, we assign each bar an ordinal class from **0** to **7** according to the computed raw score.
+The attributes are turned into learnable _attribute embeddings_
+$$ \mathbf{a}^{\text{rhym}}, \mathbf{a}^{\text{poly}} \in \mathbb{R}^{\mathbf{a} $$
+fed to the decoder through **in-attention** to control the generation.
 
 We note that more attributes can be potentially included, such as rhythmic variation (ordinal), or composing styles (nominal), etc..
 
