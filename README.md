@@ -21,4 +21,5 @@ _ArXiv preprint_, May 2021
 </div>
 
 ## Listening Samples
-**MuseMorphose** is trained on expressive pop piano performances (dataset: _AILabs.tw Pop17K_, [link](https://github.com/YatingMusic/compound-word-transformer/tree/main/dataset)). The following samples are 8 bars long, but we note that **MuseMorphose** can deal with arbitrarily long musical pieces.
+**MuseMorphose** is trained on expressive pop piano performances (dataset: _AILabs.tw Pop17K_, [link](https://github.com/YatingMusic/compound-word-transformer/tree/main/dataset)).   
+The following samples are 8 bars long, but we note that **MuseMorphose** can deal with arbitrarily long musical pieces.
