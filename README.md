@@ -41,9 +41,9 @@ We note that more attributes can be potentially included, like _rhythmic variati
 To maximize the influence of bar-level conditions (i.e., $$\boldsymbol{c}_k$$'s) on the decoder, we inject them into _every_ self-attention layer through
 
 $$\begin{aligned}
-  \tilde{\boldsymbol{h}^l_t} &= \boldsymbol{h}^l_t + {\boldsymbol{c}_k}^{\top} W_{\text{in}} \,, \forall \, l \in \{0, L-1\} \; \text{and} \; \forall \, t \in I_k \,; \\
-  \boldsymbol{c}_k &= \text{concat}([\boldsymbol{z}_k, \boldsymbol{a}^{\text{rhym}}_k, \boldsymbol{a}^{\text{poly}_k}])\, ,
-  W_{\text{in}} &\in \mathbb{R}^{d_{\boldsymbol{c}} \times d}
+  \tilde{\boldsymbol{h}^l_t} &= \boldsymbol{h}^l_t + {\boldsymbol{c}_k}^{\top} W_{\text{in}} \,, \; \; \; \; \forall \, l \in \{0, L-1\} \; \text{and} \; \forall \, t \in I_k \, \\
+  \boldsymbol{c}_k &= \text{concat}([\boldsymbol{z}_k, \boldsymbol{a}^{\text{rhym}}_k, \boldsymbol{a}^{\text{poly}}_k}])\, \\
+  W_{\text{in}} &\in \mathbb{R}^{d_{\boldsymbol{c}} \times d}\,, 
 \end{aligned}$$
 
 where xxx is yyy.
