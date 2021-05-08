@@ -21,16 +21,21 @@ _ArXiv preprint_, May 2021
 </div>
 
 ## Listening Samples
-**MuseMorphose** is trained on expressive pop piano performances (dataset: _AILabs.tw Pop17K_, [link](https://github.com/YatingMusic/compound-word-transformer/tree/main/dataset)).   
+**MuseMorphose** is trained on expressive pop piano performances (dataset: _AILabs.tw-Pop1.7K_, [link](https://github.com/YatingMusic/compound-word-transformer/tree/main/dataset)).   
 
 ### 8-bar Excerpt #1  
 
-| Original | <audio controls><source src="./assets/audio_samples/excerpt01_orig.mp3" type="audio/mpeg"></audio> |
+| Original (**mid** rhythm & polyphony) | <audio controls><source src="./assets/audio_samples/excerpt01_orig.mp3" type="audio/mpeg"></audio> |
 | --- | ----------- |
-| **Generation 01** | <audio controls><source src="./assets/audio_samples/excerpt01_orig.mp3" type="audio/mpeg"></audio> |
+| Generation #1, **high** rhythm & polyphony | <audio controls><source src="./assets/audio_samples/excerpt01_high.mp3" type="audio/mpeg"></audio> |
+| Generation #2, **low &rarr; high** rhythm & polyphony | <audio controls><source src="./assets/audio_samples/excerpt01_crescendo.mp3" type="audio/mpeg"></audio> |
+| Generation #3, **high &rarr; low** rhythm & polyphony | <audio controls><source src="./assets/audio_samples/excerpt01_diminuendo.mp3" type="audio/mpeg"></audio> |
+
 
 ### 8-bar Excerpt #2  
 
-| Original | &nbsp; <audio controls><source src="./assets/audio_samples/excerpt02_orig.mp3" type="audio/mpeg"></audio> |
+| Original (**mid** rhythm & polyphony) | <audio controls><source src="./assets/audio_samples/excerpt02_orig.mp3" type="audio/mpeg"></audio> |
 | --- | ----------- |
-| **Generation 01** | &nbsp; <audio controls><source src="./assets/audio_samples/excerpt02_orig.mp3" type="audio/mpeg"></audio> |
+| Generation #1, **low** rhythm & polyphony | <audio controls><source src="./assets/audio_samples/excerpt02_low.mp3" type="audio/mpeg"></audio> |
+| Generation #2, **high** rhythm, **low &rarr; high** polyphony | <audio controls><source src="./assets/audio_samples/excerpt02_poly_crescendo.mp3" type="audio/mpeg"></audio> |
+| Generation #3, **high &rarr; low** rhythm, **high** polyphony | <audio controls><source src="./assets/audio_samples/excerpt02_rhym_diminuendo.mp3" type="audio/mpeg"></audio> |
