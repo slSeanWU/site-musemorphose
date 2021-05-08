@@ -38,11 +38,11 @@ fed to the decoder through **in-attention** to control the generation.
 We note that more attributes can be potentially included, like _rhythmic variation_ (ordinal), or _composing styles_ (nominal), just to name a few.
 
 ### In-attention Mechanism
-To maximize the bar-level conditions' influence on the decoder, we inject them into _every_ self-attention layer through
+To maximize the influence of bar-level conditions (i.e., $$\boldsymbol{c}_k$$'s) on the decoder, we inject them into _every_ self-attention layer through
 
 $$\begin{aligned}
-  a &= b  \\
-  c &= d
+  \tilde{\boldsymbol{h}}^l_t &= \boldsymbol{h}^l_t + {\boldsymbol{c}_k}^{\top} W_{\text{in}} \,,  \\
+  \forall l &\in \{0, L-1\} \; \text{and} \; t \in I_k \, ,
 \end{aligned}$$
 
 where xxx is yyy.
