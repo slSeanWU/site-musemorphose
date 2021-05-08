@@ -37,7 +37,7 @@ fed to the decoder through **in-attention** to control the generation.
 
 We note that more attributes can be potentially included, like _rhythmic variation_ (ordinal), or _composing styles_ (nominal), just to name a few.
 
-### In-attention Mechanism
+### In-attention Conditioning
 To maximize the influence of bar-level conditions (i.e., $$\boldsymbol{c}_k$$'s) on the decoder, we inject them into _all_ $$L$$ self-attention layers through
 
 $$\begin{aligned}
