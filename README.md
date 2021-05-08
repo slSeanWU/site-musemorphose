@@ -40,10 +40,10 @@ We note that more attributes can be potentially included, like _rhythmic variati
 ### In-attention Mechanism
 To maximize the bar-level conditions' influence on the decoder, we inject them into _every_ self-attention layer through
 
-$$
-  a &= b  
+$$\begin{aligned}
+  a &= b  \\
   c &= d
-$$
+\end{aligned}$$
 
 where xxx is yyy.
 
