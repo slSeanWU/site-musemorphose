@@ -31,7 +31,7 @@ We consider the following two _computable_, _bar-level_ attributes:
 Following _Kawai et al. (2020)_ ([paper](https://archives.ismir.net/ismir2020/paper/000099.pdf)), for each attribute, we assign each bar an ordinal class from **0** to **7** according to the computed raw score.
 The attributes are turned into learnable _attribute embeddings_
 
-$$ \mathbfit{a}^{\text{rhym}}, \mathbfit{a}^{\text{poly}} \in \mathbb{R}^{\mathbfit{a}} $$
+$$ \boldsymbol{a}^{\text{rhym}}, \boldsymbol{a}^{\text{poly}} \in \mathbb{R}^{\boldsymbol{a}} $$
 
 fed to the decoder through **in-attention** to control the generation.
 
