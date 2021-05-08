@@ -42,11 +42,10 @@ To maximize the influence of bar-level conditions (i.e., $$\boldsymbol{c}_k$$'s)
 
 $$\begin{aligned}
   \tilde{\boldsymbol{h}^l_t} &= \boldsymbol{h}^l_t + {\boldsymbol{c}_k}^{\top} W_{\text{in}} \,, \; \; \; \; \forall \, l \in \{0, L-1\} \; \text{and} \; \forall \, t \in I_k \, \\
-  \boldsymbol{c}_k &= \text{concat}([\boldsymbol{z}_k, \boldsymbol{a}^{\text{rhym}}_k, \boldsymbol{a}^{\text{poly}}_k])\, \\
-  W_{\text{in}} &\in \mathbb{R}^{d_{\boldsymbol{c}} \times d}; \; \; \; \; \; \; \; \; \tilde{\boldsymbol{h}^l_t}, \boldsymbol{h}^l_t \in \mathbb{R}^{d} \,,
+  \boldsymbol{c}_k &= \text{concat}([\boldsymbol{z}_k, \boldsymbol{a}^{\text{rhym}}_k, \boldsymbol{a}^{\text{poly}}_k])\,
 \end{aligned}$$
 
-where $$I_k$$ stores the timestep indices for the $$k^{\text{th}}$$ bar, and $$\tilde{\boldsymbol{h}^l_t}$$'s are the _modified hidden states_ of layer $$l$$.
+where $$W_{\text{in}}$$ is a learnable projection, $$I_k$$ stores the timestep indices for the $$k^{\text{th}}$$ bar, and $$\tilde{\boldsymbol{h}^l_t}$$'s are the _modified hidden states_ of layer $$l$$.
 
 This mechanism promotes tight control by constantly reminding the model of the conditions' presence.
 
@@ -71,6 +70,11 @@ The samples demonstrate that **MuseMorphose** attains high _fidelity_ to the ori
 | &bull; Generation #3, **descending** rhythm, **high** polyphony | <audio controls><source src="./assets/audio_samples/excerpt02_rhym_diminuendo.mp3" type="audio/mpeg"></audio> |
 
 ## Authors and Affiliations
+* **Shih-Lun Wu**  
+  b06902080@csie.ntu.edu.tw
+* **Yi-Hsuan Yang**  
+  affige@gmail.com
+  
 <div style="display:flex;align-items:center;justify-content:space-around">
   <img src="./assets/AI-Labs-Logo-1-300x92.png" alt="Taiwan AI Labs" style="width:25%">
   <img src="./assets/ntu_logo.png" alt="NTU" style="width:33%">
