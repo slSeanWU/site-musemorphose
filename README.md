@@ -71,7 +71,7 @@ The samples demonstrate that **MuseMorphose** attains high _fidelity_ to the ori
 | &bull; Generation #3, **descending** rhythm, **high** polyphony | <audio controls><source src="./assets/audio_samples/excerpt02_rhym_diminuendo.mp3" type="audio/mpeg"></audio> |
 
 ## Authors and Affiliations
-<div style="display:flex">
+<div style="display:flex;align-items:flex-start">
   <img src="./assets/AI-Labs-Logo-1-300x92.png" alt="Taiwan AI Labs" style="width:30%">
   <img src="./assets/ntu_logo.png" alt="NTU" style="width:40%">
   <img src="./assets/as_logo.png" alt="Academia Sinica" style="width:20%">
