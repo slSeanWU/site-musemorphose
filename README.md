@@ -1,8 +1,9 @@
-## Welcome to GitHub Pages
+## MuseMorphose
 
-You can use the [editor on GitHub](https://github.com/slSeanWU/MuseMorphose-webpage/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+We develop the **in-attention** mechanism to firmly control Transformer decoders with _segment-level_, _dense_ conditions. 
+We then bridge the full song-level **in-attention** decoder and a _bar-wise_ Transformer encoder to construct _**MuseMorphose**_. 
+Trained with the VAE objective alone, _**MuseMorphose**_ can perform style transfer of long musical pieces, 
+while allowing user controls on musical attributes down to the bar level.
 
 ### Markdown
 
