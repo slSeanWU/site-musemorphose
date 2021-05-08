@@ -38,11 +38,11 @@ fed to the decoder through **in-attention** to control the generation.
 We note that more attributes can be potentially included, such as _rhythmic variation_ (ordinal), or _composing styles_ (nominal), just to name a few.
 
 ### In-attention Conditioning
-To maximize the influence of bar-level conditions (i.e., $$\boldsymbol{c}_k$$'s) on the decoder, we inject them into _all_ $$L$$ self-attention layers through
+To maximize the influence of bar-level conditions (i.e., $$\boldsymbol{c}_k$$'s) on the decoder, we inject them into _all_ $$L$$ self-attention layers via vector summation:
 
 $$\begin{aligned}
   \tilde{\boldsymbol{h}^l_t} &= \boldsymbol{h}^l_t + {\boldsymbol{c}_k}^{\top} W_{\text{in}} \,, \; \; \; \; \forall \, l \in \{0, L-1\} \; \text{and} \; \forall \, t \in I_k \, \\
-  \boldsymbol{c}_k &= \text{concat}([\boldsymbol{z}_k, \boldsymbol{a}^{\text{rhym}}_k, \boldsymbol{a}^{\text{poly}}_k])\,
+  \boldsymbol{c}_k &= \text{concat}([\boldsymbol{z}_k, \boldsymbol{a}^{\text{rhym}}_k, \boldsymbol{a}^{\text{poly}}_k])\, ,
 \end{aligned}$$
 
 where $$W_{\text{in}}$$ is a learnable projection, $$I_k$$ stores the timestep indices for the $$k^{\text{th}}$$ bar, and $$\tilde{\boldsymbol{h}^l_t}$$'s are the _modified hidden states_ of layer $$l$$.
@@ -71,9 +71,13 @@ The samples demonstrate that **MuseMorphose** attains high _fidelity_ to the ori
 
 ## Authors and Affiliations
 * **Shih-Lun Wu**  
-  b06902080@csie.ntu.edu.tw
+  Research Intern @ _Taiwan AI Labs_, Senior CS Major Undergrad @ _National Taiwan University_  
+  b06902080@csie.ntu.edu.tw  
+  [[LinkedIn](https://www.linkedin.com/in/shih-lun-sean-wu/)] (personal website under construction :))
 * **Yi-Hsuan Yang**  
-  affige@gmail.com
+  Chief Music Scientist @ _Taiwan AI Labs_, Associate Research Fellow @ _Academia Sinica_  
+  affige@gmail.com, yhyang@ailabs.tw  
+  [[website](http://mac.citi.sinica.edu.tw/~yang/)]
   
 <div style="display:flex;align-items:center;justify-content:space-around">
   <img src="./assets/AI-Labs-Logo-1-300x92.png" alt="Taiwan AI Labs" style="width:25%">
