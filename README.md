@@ -39,12 +39,14 @@ We note that more attributes can be potentially included, like _rhythmic variati
 
 ### In-attention Mechanism
 To maximize the bar-level conditions' influence on the decoder, we inject them into _every_ self-attention layer through
+
 $$
   a &= b  
   c &= d
 $$
 
 where xxx is yyy.
+
 ## Listening Samples 
 ### 8-bar Excerpt #1  
 
