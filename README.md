@@ -10,7 +10,7 @@
 _ArXiv preprint_, May 2021  
 [[arXiv](.) (coming soon)] [[code](.) (coming soon)] [[BibTex](.) (coming soon)]
 
-## Model Bird's-eye View
+## Brief Technical Overview
 <div style="text-align:center;margin-top:6px;margin-bottom:6px">
   <figure>
     <img src="./assets/muse_morphose_archi.jpg" alt="model architecture" style="width:90%">
@@ -20,9 +20,12 @@ _ArXiv preprint_, May 2021
   </figure>
 </div>
 
-## Listening Samples
-**MuseMorphose** is trained on expressive pop piano performances (dataset: _AILabs.tw-Pop1.7K_, [link](https://github.com/YatingMusic/compound-word-transformer/tree/main/dataset)).   
+**MuseMorphose** is trained on expressive pop piano performances (dataset: _AILabs.tw-Pop1.7K_, [link](https://github.com/YatingMusic/compound-word-transformer/tree/main/dataset)).
+We adopt a slightly revised REMI (_Huang and Yang, 2020_, [paper](https://arxiv.org/abs/2002.00212)) representation to convert the music into token sequences.
 
+### 
+
+## Listening Samples 
 ### 8-bar Excerpt #1  
 
 | &bull; Original (**mid** rhythm & polyphony) | <audio controls><source src="./assets/audio_samples/excerpt01_orig.mp3" type="audio/mpeg"></audio> |
