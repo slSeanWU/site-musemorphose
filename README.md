@@ -35,7 +35,7 @@ $$ \boldsymbol{a}^{\text{rhym}}, \boldsymbol{a}^{\text{poly}} \in \mathbb{R}^{d_
 
 fed to the decoder through **in-attention** to control the generation.
 
-We note that more attributes can be potentially included, like _rhythmic variation_ (ordinal), or _composing styles_ (nominal), just to name a few.
+We note that more attributes can be potentially included, such as _rhythmic variation_ (ordinal), or _composing styles_ (nominal), just to name a few.
 
 ### In-attention Conditioning
 To maximize the influence of bar-level conditions (i.e., $$\boldsymbol{c}_k$$'s) on the decoder, we inject them into _all_ $$L$$ self-attention layers through
@@ -48,16 +48,18 @@ $$\begin{aligned}
 
 where $$I_k$$ stores the timestep indices for the $$k^{\text{th}}$$ bar, and $$\tilde{\boldsymbol{h}^l_t}$$'s are the _modified hidden states_ of layer $$l$$.
 
-This mechanism promotes tight control by constantly reminding the model of the conditions.
+This mechanism promotes tight control by constantly reminding the model of the conditions' presence.
 
-## Listening Samples 
+## Listening Samples
+The samples demonstrate that **MuseMorphose** attains high _fidelity_ to the original song, strong _attribute control_, good _diversity_ across generations, and excellent _musicality_, all at the same time.
+
 ### 8-bar Excerpt #1  
 
 | &bull; Original (**mid** rhythm & polyphony) | <audio controls><source src="./assets/audio_samples/excerpt01_orig.mp3" type="audio/mpeg"></audio> |
 | --- | ----------- |
 | &bull; Generation #1, **high** rhythm & polyphony | <audio controls><source src="./assets/audio_samples/excerpt01_high.mp3" type="audio/mpeg"></audio> |
-| &bull; Generation #2, **low &rarr; high** rhythm & polyphony | <audio controls><source src="./assets/audio_samples/excerpt01_crescendo.mp3" type="audio/mpeg"></audio> |
-| &bull; Generation #3, **high &rarr; low** rhythm & polyphony | <audio controls><source src="./assets/audio_samples/excerpt01_diminuendo.mp3" type="audio/mpeg"></audio> |
+| &bull; Generation #2, **ascending** rhythm & polyphony | <audio controls><source src="./assets/audio_samples/excerpt01_crescendo.mp3" type="audio/mpeg"></audio> |
+| &bull; Generation #3, **descending** rhythm & polyphony | <audio controls><source src="./assets/audio_samples/excerpt01_diminuendo.mp3" type="audio/mpeg"></audio> |
 
 
 ### 8-bar Excerpt #2  
@@ -65,5 +67,5 @@ This mechanism promotes tight control by constantly reminding the model of the c
 | &bull; Original (**mid** rhythm & polyphony) | <audio controls><source src="./assets/audio_samples/excerpt02_orig.mp3" type="audio/mpeg"></audio> |
 | --- | ----------- |
 | &bull; Generation #1, **low** rhythm & polyphony | <audio controls><source src="./assets/audio_samples/excerpt02_low.mp3" type="audio/mpeg"></audio> |
-| &bull; Generation #2, **high** rhythm, **low &rarr; high** polyphony | <audio controls><source src="./assets/audio_samples/excerpt02_poly_crescendo.mp3" type="audio/mpeg"></audio> |
-| &bull; Generation #3, **high &rarr; low** rhythm, **high** polyphony | <audio controls><source src="./assets/audio_samples/excerpt02_rhym_diminuendo.mp3" type="audio/mpeg"></audio> |
+| &bull; Generation #2, **high** rhythm, **ascending** polyphony | <audio controls><source src="./assets/audio_samples/excerpt02_poly_crescendo.mp3" type="audio/mpeg"></audio> |
+| &bull; Generation #3, **descending** rhythm, **high** polyphony | <audio controls><source src="./assets/audio_samples/excerpt02_rhym_diminuendo.mp3" type="audio/mpeg"></audio> |
