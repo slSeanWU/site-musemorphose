@@ -326,12 +326,14 @@ a {
     -webkit-overflow-scrolling: touch;
 
     th {
-      font-weight: bold;
+//       font-weight: bold;
+      text-align: left;
     }
 
     th,
     td {
       padding: 0.5rem 1rem;
+      text-align: left;
       border: 1px solid $table-border-color;
     }
   }
