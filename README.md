@@ -35,9 +35,16 @@ $$ \boldsymbol{a}^{\text{rhym}}, \boldsymbol{a}^{\text{poly}} \in \mathbb{R}^{\b
 
 fed to the decoder through **in-attention** to control the generation.
 
-We note that more attributes can be potentially included, such as rhythmic variation (ordinal), or composing styles (nominal), etc..
+We note that more attributes can be potentially included, like _rhythmic variation_ (ordinal), or _composing styles_ (nominal), just to name a few.
 
+### In-attention Mechanism
+To maximize the bar-level conditions' influence on the decoder, we inject them into _every_ self-attention layer through
+$$
+  a &= b  
+  c &= d
+$$
 
+where xxx is yyy.
 ## Listening Samples 
 ### 8-bar Excerpt #1  
 
