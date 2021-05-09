@@ -71,7 +71,15 @@ The samples demonstrate that **MuseMorphose** attains high _fidelity_ to the ori
 
 ### Full Song #1  
 
+| &bull; Original (121 bars) | <audio controls><source src="./assets/audio_samples/song01_orig.mp3" type="audio/mpeg"></audio> |
+| --- | ----------- |
+| &bull; Generation, **increased** rhythm & polyphony | <audio controls><source src="./assets/audio_samples/song01_increased.mp3" type="audio/mpeg"></audio> |
+
 ### Full Song #2  
+
+| &bull; Original (87 bars) | <audio controls><source src="./assets/audio_samples/song02_orig.mp3" type="audio/mpeg"></audio> |
+| --- | ----------- |
+| &bull; Generation, **increased** rhythm, **decreased** polyphony | <audio controls><source src="./assets/audio_samples/song02_inc_dec.mp3" type="audio/mpeg"></audio> |
 
 ## Authors and Affiliations
 * **Shih-Lun Wu**  
