@@ -20,15 +20,15 @@ _ArXiv preprint_, May 2021
   </figure>
 </div>
 
-**MuseMorphose** is trained on expressive pop piano performances (_AILabs.tw-Pop1.7K_ dataset, [link](https://github.com/YatingMusic/compound-word-transformer/tree/main/dataset)).
-A slightly revised Revamped MIDI representation (**REMI**, _Huang and Yang, 2020_, [paper](https://arxiv.org/abs/2002.00212)) is adopted to convert the music into token sequences.
+**MuseMorphose** is trained on expressive pop piano performances (_AILabs.tw-Pop1.7K_ dataset, [link](https://github.com/YatingMusic/compound-word-transformer/tree/main/dataset){:target="_blank"}).
+A slightly revised Revamped MIDI representation (**REMI**, _Huang and Yang, 2020_, [paper](https://arxiv.org/abs/2002.00212){:target="_blank"}) is adopted to convert the music into token sequences.
 
 ### Controllable Attributes
 We consider the following two _computable_, _bar-level_ attributes:
 * **Rhythmic intensity**: The percentage of quarter beats with _&ge;1 note onsets_.
 * **Polyphony**: The average number of _notes hit or held_ on each quarter beat.  
 
-Following _Kawai et al. (2020)_ ([paper](https://archives.ismir.net/ismir2020/paper/000099.pdf)), for each attribute, we assign each bar an ordinal class from $$[0, 1, \dots, 7]$$ according to the computed raw score.
+Following _Kawai et al. (2020)_ ([paper](https://archives.ismir.net/ismir2020/paper/000099.pdf){:target="_blank"}), for each attribute, we assign each bar an ordinal class from $$[0, 1, \dots, 7]$$ according to the computed raw score.
 The attributes are turned into learnable _attribute embeddings_
 
 $$ \boldsymbol{a}^{\text{rhym}}, \boldsymbol{a}^{\text{poly}} \in \mathbb{R}^{d_{\boldsymbol{a}}} $$
@@ -73,11 +73,11 @@ The samples demonstrate that **MuseMorphose** attains high _fidelity_ to the ori
 * **Shih-Lun Wu**  
   Research Intern @ _Taiwan AI Labs_, Senior CS Major Undergrad @ _National Taiwan University_  
   b06902080@csie.ntu.edu.tw  
-  [[LinkedIn](https://www.linkedin.com/in/shih-lun-sean-wu/)] (personal website under construction :))
+  [[LinkedIn](https://www.linkedin.com/in/shih-lun-sean-wu/){:target="_blank"}] (personal website under construction :))
 * **Yi-Hsuan Yang**  
   Chief Music Scientist @ _Taiwan AI Labs_, Associate Research Fellow @ _Academia Sinica_  
   affige@gmail.com, yhyang@ailabs.tw  
-  [[website](http://mac.citi.sinica.edu.tw/~yang/)]
+  [[website](http://mac.citi.sinica.edu.tw/~yang/){:target="_blank"}]
   
 <div style="display:flex;align-items:center;justify-content:space-around">
   <img src="./assets/AI-Labs-Logo-1-300x92.png" alt="Taiwan AI Labs" style="width:25%">
