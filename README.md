@@ -41,8 +41,8 @@ We note that more attributes can be potentially included, such as _rhythmic vari
 To maximize the influence of bar-level conditions (i.e., $$\boldsymbol{c}_k$$'s) on the decoder, we inject them into _all_ $$L$$ self-attention layers via vector summation:
 
 $$\begin{alignat}{2}
-  \tilde{\boldsymbol{h}^l_t} &= \boldsymbol{h}^l_t + {\boldsymbol{c}_k}^{\top} W_{\text{in}} \,, \; \; \; \; &\forall \, l \in \{0, L-1\} \; \text{and} \; \forall \, t \in I_k \, \\
-  \boldsymbol{c}_k &= \text{concat}([\boldsymbol{z}_k, \boldsymbol{a}^{\text{rhym}}_k, \boldsymbol{a}^{\text{poly}}_k])\, ,  &\forall \, k \in \{1, K\} \, ,
+  \tilde{\boldsymbol{h}^l_t} &= \boldsymbol{h}^l_t + {\boldsymbol{c}_k}^{\top} W_{\text{in}} \,, \; \; \; \; &\forall \, l \in \{0, \dots, L-1\} \; \text{and} \; \forall \, t \in I_k \, \\
+  \boldsymbol{c}_k &= \text{concat}([\boldsymbol{z}_k, \boldsymbol{a}^{\text{rhym}}_k, \boldsymbol{a}^{\text{poly}}_k])\, ,  &\forall \, k \in \{1, \dots, K\} \, ,
 \end{alignat}$$
 
 where $$W_{\text{in}}$$ is a learnable projection, $$I_k$$ stores the timestep indices for the $$k^{\text{th}}$$ bar, and $$\tilde{\boldsymbol{h}^l_t}$$'s are the _modified hidden states_ of layer $$l$$.
