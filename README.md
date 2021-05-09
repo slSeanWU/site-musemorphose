@@ -69,6 +69,10 @@ The samples demonstrate that **MuseMorphose** attains high _fidelity_ to the ori
 | &bull; Generation #2, **high** rhythm, **ascending** polyphony | <audio controls><source src="./assets/audio_samples/excerpt02_poly_crescendo.mp3" type="audio/mpeg"></audio> |
 | &bull; Generation #3, **descending** rhythm, **high** polyphony | <audio controls><source src="./assets/audio_samples/excerpt02_rhym_diminuendo.mp3" type="audio/mpeg"></audio> |
 
+### Full Song #1  
+
+### Full Song #2  
+
 ## Authors and Affiliations
 * **Shih-Lun Wu**  
   Research Intern @ _Taiwan AI Labs_, Senior CS Major Undergrad @ _National Taiwan University_  
