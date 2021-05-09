@@ -83,11 +83,11 @@ The samples demonstrate that **MuseMorphose** attains high _fidelity_ to the ori
 
 ## Authors and Affiliations
 * **Shih-Lun Wu**  
-  Research Intern @ _Taiwan AI Labs_, Senior CS Major Undergrad @ _National Taiwan University_  
+  Research Intern @ _Taiwan AI Labs_ / Senior CS Major Undergrad @ _National Taiwan University_  
   b06902080@csie.ntu.edu.tw  
   [[LinkedIn](https://www.linkedin.com/in/shih-lun-sean-wu/){:target="_blank"}] (personal website under construction :))
 * **Yi-Hsuan Yang**  
-  Chief Music Scientist @ _Taiwan AI Labs_, Associate Research Fellow @ _Academia Sinica_  
+  Chief Music Scientist @ _Taiwan AI Labs_ / Associate Research Fellow @ _Academia Sinica_  
   affige@gmail.com, yhyang@ailabs.tw  
   [[website](http://mac.citi.sinica.edu.tw/~yang/){:target="_blank"}]
   
