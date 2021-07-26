@@ -8,7 +8,7 @@
 * Shih-Lun Wu, Yi-Hsuan Yang  
 **_MuseMorphose_: Full-Song and Fine-Grained Music Style Transfer with Just One Transformer VAE**  
 _ArXiv preprint_, May 2021  
-[[arXiv](https://arxiv.org/abs/2105.04090){:target="_blank"}] [[code](.) (coming soon)] [[BibTex](https://drive.google.com/file/d/1EOpRjNqzIodNygxFVDJ-otY3BK-f56mr/view?usp=sharing){:target="_blank"}]
+[[arXiv](https://arxiv.org/abs/2105.04090){:target="_blank"}] [[code](https://github.com/YatingMusic/MuseMorphose){:target="_blank"}] [[BibTex](https://drive.google.com/file/d/1EOpRjNqzIodNygxFVDJ-otY3BK-f56mr/view?usp=sharing){:target="_blank"}]
 
 ## Brief Technical Overview
 <div style="text-align:center;margin-top:6px;margin-bottom:6px">
@@ -69,6 +69,11 @@ The samples demonstrate that **MuseMorphose** attains high _fidelity_ to the ori
 | &bull; Generation #2, **high** rhythm, **ascending** polyphony | <audio controls><source src="./assets/audio_samples/excerpt02_poly_crescendo.mp3" type="audio/mpeg"></audio> |
 | &bull; Generation #3, **descending** rhythm, **high** polyphony | <audio controls><source src="./assets/audio_samples/excerpt02_rhym_diminuendo.mp3" type="audio/mpeg"></audio> |
 
+### 8-bar Excerpt #3 (Mozart's "Ah vous dirai-je, Maman")
+| &bull; Original (**theme melody** only) | <audio controls><source src="./assets/audio_samples/stars.mp3" type="audio/mpeg"></audio> |
+| --- | ----------- |
+| &bull; Generation #1, **ascending** rhythm & polyphony | <audio controls><source src="./assets/audio_samples/stars_gen.mp3" type="audio/mpeg"></audio> |
+
 ### Full Song #1  
 
 | &bull; Original (121 bars) | <audio controls><source src="./assets/audio_samples/song01_orig.mp3" type="audio/mpeg"></audio> |
@@ -80,6 +85,24 @@ The samples demonstrate that **MuseMorphose** attains high _fidelity_ to the ori
 | &bull; Original (87 bars) | <audio controls><source src="./assets/audio_samples/song02_orig.mp3" type="audio/mpeg"></audio> |
 | --- | ----------- |
 | &bull; Generation, **increased** rhythm, **decreased** polyphony | <audio controls><source src="./assets/audio_samples/song02_inc_dec.mp3" type="audio/mpeg"></audio> |
+
+
+## Baseline Samples
+Below we provide some compositions by RNN-based models  
+
+### MIDI-VAE (Brunner et al., 2018)
+| &bull; Original #1 (**mid** rhythm & polyphony) | <audio controls><source src="./assets/audio_samples/midi_vae_orig_01.mp3" type="audio/mpeg"></audio> |
+| --- | ----------- |
+| &bull; Generation #1, **low** rhythm & polyphony | <audio controls><source src="./assets/audio_samples/midi_vae_gen_01.mp3" type="audio/mpeg"></audio> |
+| &bull; Original #2, (**mid** rhythm & polyphony) | <audio controls><source src="./assets/audio_samples/midi_vae_orig_02.mp3" type="audio/mpeg"></audio> |
+| &bull; Generation #2, **high** rhythm & polyphony | <audio controls><source src="./assets/audio_samples/midi_vae_gen_02.mp3" type="audio/mpeg"></audio> |
+
+### Attributes-aware VAE (Kawai et al., 2020)
+| &bull; Original #1 (**mid** rhythm & polyphony) | <audio controls><source src="./assets/audio_samples/attr_vae_orig_01.mp3" type="audio/mpeg"></audio> |
+| --- | ----------- |
+| &bull; Generation #1, **low** rhythm & polyphony | <audio controls><source src="./assets/audio_samples/attr_vae_gen_01.mp3" type="audio/mpeg"></audio> |
+| &bull; Original #2, (**mid** rhythm & polyphony) | <audio controls><source src="./assets/audio_samples/attr_vae_orig_02.mp3" type="audio/mpeg"></audio> |
+| &bull; Generation #2, **high** rhythm & polyphony | <audio controls><source src="./assets/audio_samples/attr_vae_gen_02.mp3" type="audio/mpeg"></audio> |
 
 ## Authors and Affiliations
 * **Shih-Lun Wu**  
