@@ -8,4 +8,4 @@ kramdown:
   math_engine: katex
 
 title: MuseMorphose
-description: Full-Song and Fine-Grained Music Style Transfer with Just One Transformer VAE
+description: Full-Song and Fine-Grained Music Style Transfer with One Transformer VAE
