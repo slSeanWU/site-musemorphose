@@ -96,7 +96,7 @@ Below we provide some compositions by RNN-based models
 | &bull; Original #1 (**mid** rhythm & polyphony) | <audio controls><source src="./assets/audio_samples/midi_vae_orig_01.mp3" type="audio/mpeg"></audio> |
 | --- | ----------- |
 | &bull; Generation #1, **low** rhythm & polyphony | <audio controls><source src="./assets/audio_samples/midi_vae_gen_01.mp3" type="audio/mpeg"></audio> |
-| &bull; Original #2, (**mid** rhythm & polyphony) | <audio controls><source src="./assets/audio_samples/midi_vae_orig_02.mp3" type="audio/mpeg"></audio> |
+| &bull; Original #2 (**mid** rhythm & polyphony) | <audio controls><source src="./assets/audio_samples/midi_vae_orig_02.mp3" type="audio/mpeg"></audio> |
 | &bull; Generation #2, **high** rhythm & polyphony | <audio controls><source src="./assets/audio_samples/midi_vae_gen_02.mp3" type="audio/mpeg"></audio> |
 
 ### Attributes-aware VAE (Kawai et al., 2020)
@@ -104,7 +104,7 @@ Below we provide some compositions by RNN-based models
 | &bull; Original #1 (**mid** rhythm & polyphony) | <audio controls><source src="./assets/audio_samples/attr_vae_orig_01.mp3" type="audio/mpeg"></audio> |
 | --- | ----------- |
 | &bull; Generation #1, **low** rhythm & polyphony | <audio controls><source src="./assets/audio_samples/attr_vae_gen_01.mp3" type="audio/mpeg"></audio> |
-| &bull; Original #2, (**mid** rhythm & polyphony) | <audio controls><source src="./assets/audio_samples/attr_vae_orig_02.mp3" type="audio/mpeg"></audio> |
+| &bull; Original #2 (**mid** rhythm & polyphony) | <audio controls><source src="./assets/audio_samples/attr_vae_orig_02.mp3" type="audio/mpeg"></audio> |
 | &bull; Generation #2, **high** rhythm & polyphony | <audio controls><source src="./assets/audio_samples/attr_vae_gen_02.mp3" type="audio/mpeg"></audio> |
 
 ## Authors and Affiliations
