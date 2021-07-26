@@ -70,6 +70,7 @@ The samples demonstrate that **MuseMorphose** attains high _fidelity_ to the ori
 | &bull; Generation #3, **descending** rhythm, **high** polyphony | <audio controls><source src="./assets/audio_samples/excerpt02_rhym_diminuendo.mp3" type="audio/mpeg"></audio> |
 
 ### 8-bar Excerpt #3 (Mozart's "Ah vous dirai-je, Maman")
+
 | &bull; Original (**theme melody** only) | <audio controls><source src="./assets/audio_samples/stars.mp3" type="audio/mpeg"></audio> |
 | --- | ----------- |
 | &bull; Generation #1, **ascending** rhythm & polyphony | <audio controls><source src="./assets/audio_samples/stars_gen.mp3" type="audio/mpeg"></audio> |
@@ -91,6 +92,7 @@ The samples demonstrate that **MuseMorphose** attains high _fidelity_ to the ori
 Below we provide some compositions by RNN-based models  
 
 ### MIDI-VAE (Brunner et al., 2018)
+
 | &bull; Original #1 (**mid** rhythm & polyphony) | <audio controls><source src="./assets/audio_samples/midi_vae_orig_01.mp3" type="audio/mpeg"></audio> |
 | --- | ----------- |
 | &bull; Generation #1, **low** rhythm & polyphony | <audio controls><source src="./assets/audio_samples/midi_vae_gen_01.mp3" type="audio/mpeg"></audio> |
@@ -98,6 +100,7 @@ Below we provide some compositions by RNN-based models
 | &bull; Generation #2, **high** rhythm & polyphony | <audio controls><source src="./assets/audio_samples/midi_vae_gen_02.mp3" type="audio/mpeg"></audio> |
 
 ### Attributes-aware VAE (Kawai et al., 2020)
+
 | &bull; Original #1 (**mid** rhythm & polyphony) | <audio controls><source src="./assets/audio_samples/attr_vae_orig_01.mp3" type="audio/mpeg"></audio> |
 | --- | ----------- |
 | &bull; Generation #1, **low** rhythm & polyphony | <audio controls><source src="./assets/audio_samples/attr_vae_gen_01.mp3" type="audio/mpeg"></audio> |
