@@ -111,7 +111,7 @@ Below we provide some compositions by RNN-based models
 * **Shih-Lun Wu**  
   Research Intern @ _Taiwan AI Labs_ / Senior CS Major Undergrad @ _National Taiwan University_  
   b06902080@csie.ntu.edu.tw  
-  [[LinkedIn](https://www.linkedin.com/in/shih-lun-sean-wu/){:target="_blank"}] (personal website under construction :))
+  [[website](https://slseanwu.github.io/){:target="_blank"}]
 * **Yi-Hsuan Yang**  
   Chief Music Scientist @ _Taiwan AI Labs_ / Associate Research Fellow @ _Academia Sinica_  
   affige@gmail.com, yhyang@ailabs.tw  
