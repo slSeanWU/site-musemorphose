@@ -8,7 +8,7 @@
 * Shih-Lun Wu, Yi-Hsuan Yang  
 **_MuseMorphose_: Full-Song and Fine-Grained Music Style Transfer with One Transformer VAE**  
 _ArXiv preprint_, May 2021  
-[[arXiv](https://arxiv.org/abs/2105.04090){:target="_blank"}] [[code](https://github.com/YatingMusic/MuseMorphose){:target="_blank"}] [[BibTex](https://drive.google.com/file/d/1EOpRjNqzIodNygxFVDJ-otY3BK-f56mr/view?usp=sharing){:target="_blank"}]
+[[paper](https://arxiv.org/abs/2105.04090){:target="_blank"}] [[supplemental](./assets/supplement.pdf){:target="_blank"}] [[code](https://github.com/YatingMusic/MuseMorphose){:target="_blank"}] [[BibTex](https://drive.google.com/file/d/1EOpRjNqzIodNygxFVDJ-otY3BK-f56mr/view?usp=sharing){:target="_blank"}]
 
 ## Brief Technical Overview
 <div style="text-align:center;margin-top:6px;margin-bottom:6px">
