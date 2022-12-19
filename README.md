@@ -6,8 +6,8 @@
 
 ## Paper
 * Shih-Lun Wu, Yi-Hsuan Yang  
-**_MuseMorphose_: Full-Song and Fine-Grained Music Style Transfer with One Transformer VAE**  
-_ArXiv preprint_, May 2021  
+**_MuseMorphose_: Full-Song and Fine-Grained Piano Music Style Transfer with One Transformer VAE**  
+accepted to _IEEE/ACM Trans. Audio, Speech, & Language Processing (TASLP)_, Dec 2022  
 [[paper](https://arxiv.org/abs/2105.04090){:target="_blank"}] [[supplement](./assets/supplement.pdf){:target="_blank"}] [[code](https://github.com/YatingMusic/MuseMorphose){:target="_blank"}] [[BibTex](https://drive.google.com/file/d/1EOpRjNqzIodNygxFVDJ-otY3BK-f56mr/view?usp=sharing){:target="_blank"}]
 
 ## Brief Technical Overview
